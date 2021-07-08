@@ -9,10 +9,7 @@
     "client-start": "npm run start --prefix client",
     "heroku-postbuild": "npm install && npm run build --prefix cleint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LucasDeveloper1/portfolio.git"
-  },
+  "repository": {},
   "keywords": [
     "web",
     "portfolio",
@@ -23,10 +20,7 @@
   ],
   "author": "Lucas Petricek",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/LucasDeveloper1/portfolio/issues"
-  },
-  "homepage": "https://github.com/LucasDeveloper1/portfolio#readme",
+  "bugs": {},
   "dependencies": {
     "apollo-server-express": "^2.25.2",
     "bcrypt": "^5.0.1",
