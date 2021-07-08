@@ -1,0 +1,46 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "My personal Web Portfolio.",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js",
+    "client-start": "npm run start --prefix client",
+    "heroku-postbuild": "npm install && npm run build --prefix cleint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasDeveloper1/portfolio.git"
+  },
+  "keywords": [
+    "web",
+    "portfolio",
+    "lucas-developer",
+    "fullstack",
+    "front-end",
+    "back-end"
+  ],
+  "author": "Lucas Petricek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LucasDeveloper1/portfolio/issues"
+  },
+  "homepage": "https://github.com/LucasDeveloper1/portfolio#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.25.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "graphql": "^15.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-local": "^1.0.0"
+  }
+}
